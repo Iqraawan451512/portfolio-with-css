@@ -36,10 +36,10 @@ function Header(){
         
         <ul className="class">
 
-         <a href="/" target="_blank">   <li><FaHome /> Home</li></a>
-         <a href="./about" target="_blank">  <li><MdAccountCircle /> About</li></a>
-          <a href="./project" target="_blank" > <li> <RiProfileFill /> Portfolio</li></a>
-           <a href="./contact" target="_blank"> <li><IoMdContacts /> contact</li></a>
+         <a href="/" >   <li><FaHome /> Home</li></a>
+         <a href="./about" >  <li><MdAccountCircle /> About</li></a>
+          <a href="./project"  > <li> <RiProfileFill /> Portfolio</li></a>
+           <a href="./contact" > <li><IoMdContacts /> contact</li></a>
 
         </ul>
     </div>

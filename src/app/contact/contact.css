@@ -16,13 +16,13 @@ h1{
     color:#03045e;
     position: absolute;
     margin-bottom:50rem ;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     margin-top: 5rem;
 }
 p{
     color:#023047;
     position: absolute;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 10rem;
     font-size: 1.3rem;
     font-weight: 800;
@@ -34,7 +34,7 @@ p{
     position: absolute;
     display: flex;
     gap:7rem ;
-    margin-left: 8rem;
+    margin-left: 4rem;
 }
 .cont{
 width: 25rem;

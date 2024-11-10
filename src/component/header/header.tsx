@@ -23,10 +23,10 @@ function Header(){
       
         
        <ul className="icone">
-       <li> <a href="/" target="_blank"><FaFacebook className="face"/></a></li>
-      <a href="" target="_blank"> <li><FaLinkedinIn className="face"/></li></a>
-      <a href="" target="_blank"> <li> <FaInstagramSquare className="face"/></li></a>
-       <a href="" target="_blank"> <li><FaGithub className="face"/></li></a>
+        <Link href="https://web.facebook.com" target="_blank"> <li><FaFacebook className="face"/></li></Link>
+      <Link href="https://www.linkedin.com" target="_blank"> <li><FaLinkedinIn className="face"/></li></Link>
+      <Link href="https://www.linkedin.com" target="_blank"> <li> <FaInstagramSquare className="face"/></li></Link>
+       <Link href="https://github.com" target="_blank"> <li><FaGithub className="face"/></li></Link>
 </ul>
 
 
@@ -36,10 +36,10 @@ function Header(){
         
         <ul className="class">
 
-         <a href="/" >   <li><FaHome /> Home</li></a>
-         <a href="./about" >  <li><MdAccountCircle /> About</li></a>
-          <a href="./project"  > <li> <RiProfileFill /> Portfolio</li></a>
-           <a href="./contact" > <li><IoMdContacts /> contact</li></a>
+         <Link href="/"className="nav-icone" >   <li><FaHome /> Home</li></Link>
+         <Link href="./about" className="nav-icone" >  <li><MdAccountCircle /> About</li></Link>
+          <Link href="./project" className="nav-icone" > <li> <RiProfileFill /> Portfolio</li></Link>
+           <Link href="./contact" className="nav-icone"> <li><IoMdContacts /> contact</li></Link>
 
         </ul>
     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import "./header-1.css"
 function Header_two(){
 return(
@@ -10,10 +11,10 @@ return(
 
    </a> </h1>
   <ul className=".ul">
-<a href="/"><li>Home</li></a>
-<a href="./about"><li>About</li></a>
-<a href="./project"><li>Portfolio</li></a>
-<a href="./contact"><li>Contact</li></a>
+<Link href="/"><li>Home</li></Link>
+<Link href="./about"><li>About</li></Link>
+<Link href="./project"><li>Portfolio</li></Link>
+<Link href="./contact"><li>Contact</li></Link>
 
   </ul>
 </div>
